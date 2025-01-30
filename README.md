@@ -20,8 +20,6 @@ RAID - NAO CONSWGUI FAZER FUNCIONA AINDA
 Segue o link do tutorial que funciona para configurar RAID1
 https://gist.github.com/leandrofilipe/f9636be272f97d414652ce1f21e6b1f4
 
-atendimento@bombasfama.com.br,advogados@bhadvogados.com.br,financeiro@brevemarketing.com,EVERTON@CENTRONAUTICORS.COM.BR,doutorknmotosserras@hotmail.com,financeiro@formasete.com.br,SUL.CONTABIL@HOTMAIL.COM,contabilidade@redeparts.com.br,CONTABILIDADE@REDEMAQ.COM.BR,atendimento@marianitaortaca.com.br,adm@terramais.com.br,contato@bmradvocacia.com.br,contato@inovatec3d.com.br,marcio@terramais.com.br,
-
 - Git
 
 Intalei o git para baixar este projeto e poder rodar o docker compose daqui

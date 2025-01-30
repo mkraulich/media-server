@@ -15,8 +15,10 @@ services:
       - /home/pi/qbittorrent/config:/config
       - /media/usb
     ports:
-      - "8080:8080"
-      - "62609:62609"
+      - 8080:8080
+      - 62609:62609
+      - 6881:6881
+      - 6881:6881/udp
 
   plex:
     image: plexinc/pms-docker:latest

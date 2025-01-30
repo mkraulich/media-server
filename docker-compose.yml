@@ -3,6 +3,21 @@
 #     driver: bridge
 
 services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    restart: unless-stopped
+    environment:
+      - TZ=America/Sao_Paulo
+      - WEBUI_PORT=8080
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - /home/pi/qbittorrent/config:/config
+      - /media/usb
+    ports:
+      - "8080:8080"
+      - "62609:62609"
+
   plex:
     image: plexinc/pms-docker:latest
     restart: unless-stopped
